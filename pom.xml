@@ -10,7 +10,7 @@
 
     <groupId>io.trino.hadoop</groupId>
     <artifactId>hadoop-apache</artifactId>
-    <version>3.3.5-4-SNAPSHOT</version>
+    <version>3.4.1-1-SNAPSHOT</version>
 
     <name>hadoop-apache</name>
     <description>Shaded version of Apache Hadoop for Trino</description>
@@ -240,6 +240,22 @@
                 <exclusion>
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-reload4j</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-aws</artifactId>
+            <version>${dep.hadoop.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wildfly.openssl</groupId>
+                    <artifactId>wildfly-openssl</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>software.amazon.awssdk</groupId>
+                    <artifactId>bundle</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
