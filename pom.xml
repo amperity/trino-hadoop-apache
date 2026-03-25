@@ -8,8 +8,8 @@
         <version>7</version>
     </parent>
 
-    <groupId>io.trino.hadoop</groupId>
-    <artifactId>hadoop-apache</artifactId>
+    <groupId>com.amperity</groupId>
+    <artifactId>trino-hadoop-apache</artifactId>
     <version>3.4.1-1-SNAPSHOT</version>
 
     <name>hadoop-apache</name>
