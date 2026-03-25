@@ -10,7 +10,7 @@
 
     <groupId>com.amperity</groupId>
     <artifactId>trino-hadoop-apache</artifactId>
-    <version>3.4.1-1-SNAPSHOT</version>
+    <version>3.4.1-SNAPSHOT</version>
 
     <name>hadoop-apache</name>
     <description>Shaded version of Apache Hadoop for Trino</description>
